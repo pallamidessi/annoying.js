@@ -1,0 +1,47 @@
+@font-face {
+    font-family: bitTitle;
+    src: url(../assets/fonts/Fipps-Regular.otf);
+}
+
+@font-face {
+    font-family: bitDefault;
+    src: local("../assets/fonts/munro.ttf"),
+    url(../assets/fonts/munro.ttf);
+}
+
+h1 {
+  font-family: bitTitle;
+  font-size: 1.6em;
+}
+
+h2 {
+  font-family: bitDefault;
+  font-size: 1.3em;
+}
+
+* {
+    font-family: bitDefault;
+    font-size: 1.1em;
+}
+
+li {
+    font-family: bitDefault;
+    font-size: 1.0em;
+}
+
+.btn {
+  overflow: hidden;
+  background-color:#fff;
+  border: none;
+  box-shadow: 4px 0 white,
+              -4px 0 white,
+              0 -4px white,
+              0 4px white,
+              8px 0 black,
+              -8px 0 black,
+              0 -8px black,
+              0 8px black,
+              0 0 0 4px black;
+  margin: 8px auto;
+  margin-right:24px;
+}
